@@ -6,7 +6,7 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "view-in-browser:toggle"
+    "atom-workspace": "view-in-browser:open"
   },
   "repository": "https://github.com/atom/view-in-browser",
   "license": "MIT",

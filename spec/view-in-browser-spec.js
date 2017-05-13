@@ -14,7 +14,7 @@ describe('ViewInBrowser', () => {
     activationPromise = atom.packages.activatePackage('view-in-browser')
   })
 
-  describe('when the view-in-browser:toggle event is triggered', () => {
+  describe('when the view-in-browser:open event is triggered', () => {
     it('hides and shows the modal panel', () => {
       // Before the activation event the view is not on the DOM, and no panel
       // has been created
@@ -22,7 +22,7 @@ describe('ViewInBrowser', () => {
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'view-in-browser:toggle')
+      atom.commands.dispatch(workspaceElement, 'view-in-browser:open')
 
       waitsForPromise(() => {
         return activationPromise
@@ -36,7 +36,7 @@ describe('ViewInBrowser', () => {
 
         let viewInBrowserPanel = atom.workspace.panelForItem(viewInBrowserElement)
         expect(viewInBrowserPanel.isVisible()).toBe(true)
-        atom.commands.dispatch(workspaceElement, 'view-in-browser:toggle')
+        atom.commands.dispatch(workspaceElement, 'view-in-browser:open')
         expect(viewInBrowserPanel.isVisible()).toBe(false)
       })
     })
@@ -54,7 +54,7 @@ describe('ViewInBrowser', () => {
 
       // This is an activation event, triggering it causes the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'view-in-browser:toggle')
+      atom.commands.dispatch(workspaceElement, 'view-in-browser:open')
 
       waitsForPromise(() => {
         return activationPromise
@@ -64,7 +64,7 @@ describe('ViewInBrowser', () => {
         // Now we can test for view visibility
         let viewInBrowserElement = workspaceElement.querySelector('.view-in-browser')
         expect(viewInBrowserElement).toBeVisible()
-        atom.commands.dispatch(workspaceElement, 'view-in-browser:toggle')
+        atom.commands.dispatch(workspaceElement, 'view-in-browser:open')
         expect(viewInBrowserElement).not.toBeVisible()
       })
     })
