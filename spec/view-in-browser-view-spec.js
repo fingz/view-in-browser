@@ -1,9 +1,9 @@
-'use babel';
+'use babel'
 
-import ViewInBrowserView from '../lib/view-in-browser-view';
+import ViewInBrowserView from '../lib/view-in-browser-view'
 
 describe('ViewInBrowserView', () => {
   it('has one valid test', () => {
-    expect('life').toBe('easy');
-  });
-});
+    expect('life').toBe('easy')
+  })
+})

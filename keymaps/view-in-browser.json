@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "view-in-browser:toggle"
+    "alt-o": "view-in-browser:toggle"
   }
 }
