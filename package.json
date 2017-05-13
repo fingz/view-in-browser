@@ -1,7 +1,7 @@
 {
   "name": "view-in-browser",
   "main": "./lib/view-in-browser",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A short description of your package",
   "keywords": [
   ],

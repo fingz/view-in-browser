@@ -1,5 +1,5 @@
 # view-in-browser package
 
-A short description of your package.
+An Atom package that allows users to view a file in the browser.
 
 ![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
