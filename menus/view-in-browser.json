@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle view-in-browser",
+        "command": "view-in-browser:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "view-in-browser",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "view-in-browser:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
