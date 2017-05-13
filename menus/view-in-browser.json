@@ -5,6 +5,12 @@
         "label": "View in Browser",
         "command": "view-in-browser:open"
       }
+    ],
+    ".tree-view .file": [
+      {
+        "label": "View in Browser",
+        "command": "view-in-browser:open"
+      }
     ]
   },
   "menu": [
