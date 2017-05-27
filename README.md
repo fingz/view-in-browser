@@ -1,5 +1,7 @@
 # view-in-browser package
 
+Allows you to press alt-w to open the currently open tab in the browser.
+
 **This package is still under development!**
 
 An Atom package that allows users to view a file in the browser.
