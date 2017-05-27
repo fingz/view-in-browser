@@ -1,7 +1,7 @@
 {
   "name": "view-in-browser",
   "main": "./lib/view-in-browser",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An Atom package that allows users to view a file in the browser.",
   "keywords": [],
   "activationCommands": {
