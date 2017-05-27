@@ -1,13 +1,13 @@
 {
   "name": "view-in-browser",
   "main": "./lib/view-in-browser",
-  "version": "1.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.0",
+  "description": "An Atom package that allows users to view a file in the browser.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "view-in-browser:open"
   },
-  "repository": "https://github.com/atom/view-in-browser",
+  "repository": "https://github.com/wlwl2/view-in-browser",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
