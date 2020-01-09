@@ -1,7 +1,7 @@
 # view-in-browser package
 
-An Atom package that allows you to view a file in the default browser
-or to open a file in its default application.
+An Atom package that allows you to view a web file in the default browser 
+(to open a file in its default application).
 
 1. Press **alt-w** to open the currently open file in its default application.
 
